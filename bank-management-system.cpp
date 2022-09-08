@@ -1,6 +1,4 @@
-//***************************************************************
-//                   HEADER FILE USED IN PROJECT
-//****************************************************************
+
 
 #include<iostream>
 #include<fstream>
@@ -8,9 +6,6 @@
 #include<iomanip>
 using namespace std;
 
-//***************************************************************
-//                   CLASS USED IN PROJECT
-//****************************************************************
 
 class account
 {
@@ -100,9 +95,9 @@ char account::rettype() const
 }
 
 
-//***************************************************************
+
 //    	function declaration
-//****************************************************************
+
 void write_account();	//function to write record in binary file
 void display_sp(int);	//function to display account details given by user
 void modify_account(int);	//function to modify record of file
@@ -111,9 +106,8 @@ void display_all();		//function to display all account details
 void deposit_withdraw(int, int); // function to desposit/withdraw amount for given account
 void intro();	//introductory screen function
 
-//***************************************************************
 //    	THE MAIN FUNCTION OF PROGRAM
-//****************************************************************
+
 
 int main()
 {
@@ -175,9 +169,8 @@ int main()
 }
 
 
-//***************************************************************
 //    	function to write in file
-//****************************************************************
+
 
 void write_account()
 {
@@ -189,9 +182,8 @@ void write_account()
 	outFile.close();
 }
 
-//***************************************************************
 //    	function to read specific record from file
-//****************************************************************
+
 
 void display_sp(int n)
 {
@@ -373,8 +365,8 @@ void intro()
 	cout<<"\n\n\n\t  BANK";
 	cout<<"\n\n\tMANAGEMENT";
 	cout<<"\n\n\t  SYSTEM";
-	cout<<"\n\n\n\nMADE BY : your name";
-	cout<<"\n\nSCHOOL : your school name";
+	cout<<"\n\n\n\nMADE BY : Sanyam";
+	cout<<"\n\n College : DCRUST MURTHAL";
 	cin.get();
 }
 
